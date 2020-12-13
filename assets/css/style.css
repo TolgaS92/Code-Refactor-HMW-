@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/* Section instead Div*/
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +33,12 @@ body {
     font-size: 20px;
 }
 
+/* Section instead Div*/
 .header section ul {
     list-style-type: none;
 }
 
+/* Section instead Div*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
@@ -58,17 +61,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* float-left and right deleted, class names confusing and we can put them in the other classes */
 .content {
     width: 75%;
     display: inline-block;
@@ -85,7 +78,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Rearranged the benefits class childs made it shorter, less code */
 .benefitsbox {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,25 +94,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* articles have the same style attributes, we don't have to repeat them, made it all together */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -129,29 +106,27 @@ p {
     color: #ffffff;
 }
 
+/* img styles, put it all together float-left and float-right classes*/
 .search-engine-optimization img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
-.online-reputation-management img {
+.online-reputation-management img{
     max-height: 200px;
+    float: right;
+    margin-left: 25px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/* h2 used only 3 times, and in the same container, put it all together */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
