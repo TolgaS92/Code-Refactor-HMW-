@@ -13,3 +13,5 @@
 6) In HTML and CSS files, for the boxes, styles were the same exact each other, and put them in one meaningfull class, and made the style.css cleaner,shorter,better. ( Screenshot: sectioninsteaddiv)
 
 7) The elements follow a logical structure independent of styling and positioning.
+
+8) CSS file reorganized, with explanations.
