@@ -40,7 +40,7 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-# Code-Refactor-HMW-Solution
+## Code-Refactor-HMW-Solution
 
 1) Descriptive Title added.
 
