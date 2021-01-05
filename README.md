@@ -57,3 +57,8 @@ THEN I find a concise, descriptive title
 7) The elements follow a logical structure independent of styling and positioning.
 
 8) CSS file reorganized, with explanations.
+
+
+
+##Screenshots
+1) assets/Screenshots/Gathering.jpg
