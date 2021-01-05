@@ -61,4 +61,4 @@ THEN I find a concise, descriptive title
 
 
 ##Screenshots
-1) assets/Screenshots/Gathering.jpg
+1) https://github.com/TolgaS92/Firsthomework-Code-Refactor/issues/1#issue-778478294
